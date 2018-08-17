@@ -5,7 +5,7 @@ position.between?(1,9)
 
 end
 
-def position_taken?(board, position)
+def position_taken?(board,position)
 
  board[position] == " " || board[position] == nil || board[position] == ""? false :true
 
